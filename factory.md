@@ -22,7 +22,7 @@ The contract maintains ownership privileges, meaning only the factory owner can 
 
 ### 1. Creating Giveaways
 
-The `createGiveaway` function is used to deploy a new giveaway contract:
+The [`createGiveaway`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/6432f36af2e4bde4342ca19b27aeb1a2f185824b/src/Factory.sol#L107) function is used to deploy a new giveaway contract:
 
 - Ensures **uniqueness** of the giveaway using a unique `giveawayId`  
 - Requires a **signature from the factory owner** to authorize the deployment  
@@ -36,7 +36,7 @@ This function guarantees that each giveaway is properly funded and fully complia
 
 ### 2. Ending Giveaways
 
-The factory provides an `endGiveaway` function to finalize giveaways:
+The factory provides an [`endGiveaway`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/6432f36af2e4bde4342ca19b27aeb1a2f185824b/src/Factory.sol#L190) function to finalize giveaways:
 
 - Verifies that the giveaway is **ready to end** (duration expired or participant limit reached)  
 - Calculates required **LINK tokens** for Chainlink VRF randomness requests  
@@ -49,7 +49,7 @@ This automation ensures winners are chosen fairly and payouts occur correctly.
 
 ### 3. Canceling Giveaways
 
-The `cancelGiveaway` function allows the factory owner to cancel problematic or stalled giveaways:
+The [`cancelGiveaway`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/6432f36af2e4bde4342ca19b27aeb1a2f185824b/src/Factory.sol#L219) function allows the factory owner to cancel problematic or stalled giveaways:
 
 - Refunds the prize to the original creator  
 - Only available before the giveaway has ended  
@@ -59,7 +59,7 @@ The `cancelGiveaway` function allows the factory owner to cancel problematic or 
 
 ### 4. Managing Tokens and Fees
 
-The factory can transfer tokens via the `transfer` function:
+The factory can transfer tokens via the [`transfer`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/6432f36af2e4bde4342ca19b27aeb1a2f185824b/src/Factory.sol#L236) function:
 
 - Supports **native tokens** and **ERC-20 tokens**  
 - Can withdraw platform fees, recover excess LINK, or handle mistakenly sent tokens  
@@ -78,7 +78,7 @@ The factory can transfer tokens via the `transfer` function:
 
 ## Events
 
-- `NewGiveaway(uint64 giveawayId, address giveawayAddress, uint256 endTime)`: emitted when a giveaway is successfully deployed
+- [`NewGiveaway(uint64 giveawayId, address giveawayAddress, uint256 endTime)`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/6432f36af2e4bde4342ca19b27aeb1a2f185824b/src/Factory.sol#L47): emitted when a giveaway is successfully deployed
 
 ---
 
@@ -91,5 +91,5 @@ The factory can transfer tokens via the `transfer` function:
 
 ---
 
-`Factory.sol` acts as the backbone of Xenona, automating the deployment, lifecycle management, and security of every giveaway while maintaining centralized oversight through owner privileges.
+[`Factory.sol`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/main/src/Factory.sol) acts as the backbone of Xenona, automating the deployment, lifecycle management, and security of every giveaway while maintaining centralized oversight through owner privileges.
 
