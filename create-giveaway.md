@@ -8,7 +8,7 @@ Below is a detailed guide explaining how each step works and why it matters.
 
 ## 1. Open the Giveaway Creator
 
-[Create button](media/create-giveaway/0.png)
+<img src="media/create-giveaway/0.png" />
 
 Navigate to the **Giveaways** page and click the **Create** button.  
 Make sure you are logged in with your wallet.
@@ -25,7 +25,7 @@ You will be redirected to a dedicated creation page containing four configuratio
 
 Here you specify the prize that will be locked inside the giveaway smart contract:
 
-[Step 1](media/create-giveaway/1.png)
+<img src="media/create-giveaway/1.png" />
 
 - **Chain** — the blockchain on which your giveaway will live.  
 - **Token** — the asset you want to give away.  
@@ -42,7 +42,7 @@ The information in this step defines the actual on-chain assets the contract wil
 
 This step defines how the giveaway will function and who is allowed to join.
 
-[Step 2](media/create-giveaway/2.png)
+<img src="media/create-giveaway/2.png" />
 
 **Core parameters:**
 
@@ -74,7 +74,7 @@ In this step you can optionally add:
 - **Giveaway title**
 - **Short description**
 
-[Step 3](media/create-giveaway/3.png)
+<img src="media/create-giveaway/3.png" />
 
 This information appears on the giveaway’s public page, helping attract participants and communicate the giveaway’s purpose.
 
@@ -86,7 +86,7 @@ Adding context isn't required but highly recommended for visibility and clarity.
 
 This final step prepares you for the on-chain deployment of your giveaway contract.
 
-[Step 4](media/create-giveaway/4.png)
+<img src="media/create-giveaway/4.png" />
 
 Clicking **Deploy** initiates the required blockchain operations.  
 Depending on your setup:
