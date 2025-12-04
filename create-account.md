@@ -10,6 +10,8 @@ Here’s how to get started, and why each step matters.
 
 Click the **“Connect Wallet”** button in the top-right corner and choose your preferred option: MetaMask, Trust Wallet, Binance Wallet, or Coinbase Wallet.
 
+<img src="media/create-account/1.png" />
+
 Connecting your wallet simply allows Xenona to read your public address. This step does **not** give the platform access to your funds or private keys — it’s the standard way Web3 apps recognize who you are.
 
 ---
@@ -18,6 +20,8 @@ Connecting your wallet simply allows Xenona to read your public address. This st
 
 Your wallet will ask whether you want to connect it to the Xenona website. Approving this is safe and necessary so the platform can show you your address, available actions, and personalized data.
 
+<img src="media/create-account/2.png" />
+
 This connection does *not* authorize any transactions. It’s just a handshake between your wallet and the app.
 
 ---
@@ -25,6 +29,9 @@ This connection does *not* authorize any transactions. It’s just a handshake b
 ## 3. Sign a Verification Message
 
 After connecting, you’ll see a signature request.  
+
+<img src="media/create-account/3.png" />
+
 This message is:
 
 - **Free** (no gas required)  
