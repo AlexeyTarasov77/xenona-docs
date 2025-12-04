@@ -26,7 +26,8 @@ Make sure your wallet meets all requirements before attempting to join. If a req
 ## 3. Click the Join Button
 
 If the giveaway is still open and you meet all requirements, the **Join** button will be active. Clicking it begins the process of submitting your entry.
-<img src="media/create-giveaway/1.png" />
+
+<img src="media/join-giveaway/1.png" />
 
 ---
 
@@ -37,10 +38,11 @@ If the giveaway is still open and you meet all requirements, the **Join** button
 
 You should approve this transaction in your wallet, it contains a call to the giveaway contract required to enter
 After the entry is confirmed on server, the join button will become disabled and you will become a participant
-Note: it may take some time to confirm participation
 
-<img src="media/create-giveaway/2.png" />
-<img src="media/create-giveaway/3.png" />
+**NOTE:** it may take some time to confirm participation
+
+<img src="media/join-giveaway/2.png" />
+<img src="media/join-giveaway/3.png" />
 
 **Important:**  
 If our backend has been offline or temporarily out-of-sync with the blockchain, giveaway entering may be temporarily disabled. This is rare but possible. If this happens, simply wait a short while until the system catches up and try again.
