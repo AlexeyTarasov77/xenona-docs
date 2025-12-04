@@ -1,12 +1,12 @@
 # Factory.sol
 
-The `Factory.sol` contract is the core administrative smart contract of the Xenona platform. Its primary role is to **deploy and manage individual giveaway contracts**, while handling platform-level operations such as LINK token allocation for randomness requests, fee collection, and emergency management.
+The [`Factory.sol`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/main/src/Factory.sol) contract is the core administrative smart contract of the Xenona platform. Its primary role is to **deploy and manage individual giveaway contracts**, while handling platform-level operations such as LINK token allocation for randomness requests, fee collection, and emergency management.
 
 ---
 
 ## Overview
 
-`Factory.sol` acts as the central manager for all giveaways on Xenona. Each giveaway created through the platform is a separate `Giveaway.sol` contract, but the factory coordinates deployment, prize funding, and lifecycle operations. Key features include:
+[`Factory.sol`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/main/src/Factory.sol) acts as the central manager for all giveaways on Xenona. Each giveaway created through the platform is a separate [`Giveaway.sol`](./giveaway.md) contract, but the factory coordinates deployment, prize funding, and lifecycle operations. Key features include:
 
 - Signature-authorized giveaway creation to prevent unauthorized deployments  
 - Support for both native tokens and ERC-20 prizes  
