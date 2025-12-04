@@ -1,12 +1,12 @@
 # Giveaway.sol
 
-The `Giveaway.sol` contract represents a single giveaway on the Xenona platform. Each giveaway is deployed as an independent smart contract, ensuring transparency, fairness, and autonomous execution. The contract handles participant registration, enforces entry rules, manages prize distribution, and integrates with Chainlink VRF for verifiable random winner selection.
+The [`Giveaway.sol`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/main/src/Giveaway.sol) contract represents a single giveaway on the Xenona platform. Each giveaway is deployed as an independent smart contract, ensuring transparency, fairness, and autonomous execution. The contract handles participant registration, enforces entry rules, manages prize distribution, and integrates with Chainlink VRF for verifiable random winner selection.
 
 ---
 
 ## Overview
 
-`Giveaway.sol` is designed to operate independently once deployed. It supports:
+[`Giveaway.sol`](https://github.com/webwise-tech/giveaway-platform-blockchain/blob/main/src/Giveaway.sol) is designed to operate independently once deployed. It supports:
 
 - Native token or ERC-20 prizes  
 - Configurable participant limits and duration  
