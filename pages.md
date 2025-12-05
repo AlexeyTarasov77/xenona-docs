@@ -1,50 +1,51 @@
 ### Main  
-Discover Xenona, a Web3 platform for creating, managing, and joining verifiably fair giveaways powered by decentralized smart contracts, automation tools, and transparent on-chain execution.
+Xenona is a Web3 platform for creating and joining fair, automated giveaways powered by smart contracts, providing transparent execution, secure prize handling, and trustless participation for all users.
 
 ### Giveaways  
-Browse active, upcoming, cancelled and completed Xenona giveaways with fully transparent on-chain rules, automated fairness guarantees, and verifiable participant and winner selection secured by smart contracts.
+Explore all Xenona giveaways with transparent rules, verified entries, on-chain logic, and automated fairness, allowing users to track active, completed, and canceled giveaways across supported networks.
 
 ### Create Giveaway  
-Create your own automated on-chain giveaway using Xenona, setup customizable rules, secure prize locking, and verifiable randomness to ensure complete fairness for all participants.
+Set up an on-chain giveaway in Xenona by defining rules, locking a prize, and deploying a smart contract with verifiable randomness to guarantee unbiased winner selection and transparent execution.
 
 ### Terms  
-Review Xenona’s Terms of Service outlining platform rules, user responsibilities, eligibility requirements, liability limitations, and the conditions governing participation in all on-chain giveaways.
+Review Xenona’s Terms of Service, describing platform rules, participation conditions, user obligations, restrictions, and policies governing the creation and interaction with all on-chain giveaways.
 
 ### Privacy  
-Learn how Xenona collects, stores, and protects user information, including wallet data and platform activity, with strict privacy controls, limited retention, and fully transparent data-handling practices.
+Learn how Xenona collects and protects minimal user data, including wallet information and platform activity, using strict policies, secure handling practices, and transparent data-usage explanations.
 
 ### Cookies  
-Understand how Xenona uses cookies and similar technologies to enhance security, track essential usage, enable seamless navigation, and provide a more personalized and reliable user experience.
+Understand Xenona’s use of essential cookies that support navigation, security, and functionality, helping maintain a smooth and reliable user experience without unnecessary tracking or profiling.
 
 ### Profile  
-Access your Xenona profile to change username or avatar, update preferences and view the giveaways history.
+Manage your Xenona profile by updating your username, avatar, and personal preferences while also accessing a detailed record of your giveaway activity and platform interactions.
 
 ### History  
-View your complete Xenona participation history, including created giveaways, entries, and wins.
+Browse your complete Xenona activity history, including every giveaway you created, participated in, or won, with fully transparent on-chain data and reliable, time-ordered event tracking.
 
 ### What is Xenona  
-Learn what Xenona is, how it enables automated, blockchain-secured giveaways, and why its trustless architecture provides fairness, transparency, and secure execution for creators and participants alike.
+Discover how Xenona enables automated, decentralized giveaways using smart contracts, offering fairness, transparency, and secure prize handling without relying on centralized systems or manual oversight.
 
 ### How to Create an Account  
-Follow a step-by-step guide to creating a Xenona account by connecting your Web3 wallet, and signing message for verifying ownership which enables access to all platform features.
+Create a Xenona account by connecting your wallet and signing a verification message, enabling secure identification, profile customization, and access to all giveaway-related platform features.
 
 ### What is Giveaway  
-Understand the concept of Xenona giveaways, how they operate through automated smart contracts, how prizes are secured, and how verifiable randomness ensures transparent and unbiased winner selection.
+Learn how Xenona giveaways function through automated smart contracts that lock prizes, track entries, and use verifiable randomness to select winners fairly and transparently on the blockchain.
 
 ### How to Create a Giveaway  
-Learn how to create a giveaway on Xenona by choosing prize types, configuring participation rules, deploying the associated smart contract, and ensuring secure and verifiable prize distribution.
+Create a giveaway on Xenona by selecting a prize type, configuring participation rules, deploying a contract, and enabling a fully automated, fair, and verifiable prize distribution process.
 
 ### How to Join a Giveaway  
-Discover how to join Xenona giveaways by meeting entry requirements, completing on-chain participation, and verifying your entry through transparent smart-contract interactions and wallet confirmations.
+Join a Xenona giveaway by meeting entry rules, authorizing participation through your wallet, and confirming your on-chain entry, ensuring a transparent, secure, and verifiable interaction.
 
 ### What is Smart Contract  
-Explore the basics of smart contracts, their automated execution, and how Xenona uses them to enforce giveaway rules, ensure fairness, handle funds securely, and provide fully transparent outcomes.
+Explore smart contracts as self-executing blockchain programs and see how Xenona uses them to enforce giveaway rules, secure prizes, automate outcomes, and ensure fairness without intermediaries.
 
 ### Factory.sol  
-Read documentation for Factory.sol, Xenona’s core deployment contract that authorizes new giveaways, secures prize funding, manages Chainlink VRF operations, and oversees the entire giveaway lifecycle.
+Read about Factory.sol, the contract responsible for deploying giveaways, validating creation requests, managing funding, and coordinating VRF-based randomness to ensure secure and fair selection.
 
 ### Giveaway.sol  
-Explore the Giveaway.sol contract powering each Xenona giveaway, including participant handling, prize management, secure randomness requests, winner verification, and automated final prize distribution.
+Learn how Giveaway.sol manages participants, prize distribution, verifiable randomness requests, winner selection, and automated completion, serving as the core logic for each individual Xenona giveaway.
 
 ### Deployed Factories  
-Browse all deployed Xenona Factory contracts across supported networks, complete with addresses, versions, chain identifiers, and reference details for verifying authenticity and interacting on-chain.
+View all officially deployed Xenona Factory contracts across supported networks, including their addresses and identifiers, ensuring users can verify authenticity and interact with trusted on-chain sources.
+
