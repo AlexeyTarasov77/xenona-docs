@@ -17,7 +17,7 @@ Learn how Xenona collects and protects minimal user data, including wallet infor
 Understand Xenona’s use of essential cookies that support navigation, security, and functionality, helping maintain a smooth and reliable user experience without unnecessary tracking or profiling.
 
 ### Profile  
-Manage your Xenona profile by updating your username, avatar, and personal preferences while also accessing a detailed record of your giveaway activity and platform interactions.
+Access your Xenona profile to update your username and avatar, manage personal preferences, review your activity, and track every giveaway you’ve created, joined, or won through a unified history view.
 
 ### History  
 Browse your complete Xenona activity history, including every giveaway you created, participated in, or won, with fully transparent on-chain data and reliable, time-ordered event tracking.
