@@ -1,10 +1,22 @@
-# Giveaway Lifecycle
+# What is a Giveaway
 
-Every giveaway on Xenona follows a clear, fully on-chain lifecycle. From creation to winner selection and prize distribution, all steps are automated, transparent, and verifiable. Below is a step-by-step overview of how a giveaway progresses.
+A giveaway on Xenona is a fully automated, blockchain-based event where participants can compete for prizes under predefined rules. Each giveaway is represented by a dedicated smart contract, which ensures security, transparency, and fairness for all participants.
+
+Giveaways operate autonomously from start to finish: the prize is locked in the contract, entries are validated on-chain, and the winner is selected using verifiable randomness. This eliminates any need for manual intervention and prevents tampering or manipulation.
+
+## Key Features
+
+- **Automated Execution:** All aspects of the giveaway — from entry validation to prize distribution — are handled by the smart contract.  
+- **Verifiable Randomness:** Winners are selected through Chainlink VRF, ensuring trustless and provably fair outcomes.  
+- **Secure Prize Handling:** Prizes are locked in the smart contract and automatically transferred to the winner after a small 1% platform fee is deducted.  
+
+In essence, a Xenona giveaway is a trustless, fair, and fully transparent mechanism for distributing prizes, giving both creators and participants confidence in the integrity of every event.
 
 ---
 
-## 1. Giveaway Creation
+## Lifecycle
+
+### 1. Giveaway Creation
 
 The lifecycle begins when a creator sets up a new giveaway through the **Create Giveaway** flow. At this stage:
 
@@ -27,7 +39,7 @@ This prevents tampering or unfair manipulation by the creator or any third party
 
 ---
 
-## 3. Participation Period
+### 3. Participation Period
 
 During the active period:
 
@@ -38,7 +50,7 @@ The participation window ends either when the **maximum number of participants**
 
 ---
 
-## 4. Ending the Giveaway
+### 4. Ending the Giveaway
 
 Once the participation period is over:
 
@@ -47,7 +59,7 @@ Once the participation period is over:
 
 ---
 
-## 5. Winner Selection
+### 5. Winner Selection
 
 The giveaway contract requests a **verifiable random number** from [Chainlink VRF](https://docs.chain.link/vrf):
 
@@ -58,7 +70,7 @@ This ensures **fairness** and **trustless selection** for all participants.
 
 ---
 
-## 6. Prize Distribution
+### 6. Prize Distribution
 
 After a winner is selected:
 
@@ -70,7 +82,7 @@ The lifecycle is now complete — the giveaway has run autonomously from start t
 
 ---
 
-## 7. Post-Giveaway
+### 7. Post-Giveaway
 
 Even after completion:
 
